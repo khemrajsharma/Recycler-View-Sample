@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.recycyclersample.models.ResultsItem" />
+
+        <variable
+            name="onItemClickListener"
+            type="com.recycyclersample.callbacks.OnItemClickListener" />
+
+    </data>
+
+    <ImageView
+        errorImage="@{@drawable/ic_placeholder}"
+        placeholderImage="@{@drawable/ic_placeholder}"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@{item.artworkUrl100}" />
+
+</layout>

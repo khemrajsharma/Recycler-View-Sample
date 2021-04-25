@@ -1,0 +1,17 @@
+<resources>
+        <string name="app_name">Michael Jackson Memories</string>
+    <string name="error">Unexpected error</string>
+    <string name="noConnectionError">No internet access, please check your internet connection.</string>
+    <string name="serverError">Error generated from server</string>
+    <string name="networkError">Network Error</string>
+    <string name="badRequestError">Bad Request Error</string>
+    <string name="forbiddenError">Forbidden Error</string>
+    <string name="notFoundError">Not Found Error</string>
+    <string name="unsupportedMediaType">Unsupported Media Type</string>
+    <string name="methodNotAllowedError">MethodNot Allowed Error</string>
+    <string name="timeoutError">Timeout Error</string>
+    <string name="authFailureError">Auth Failure Error</string>
+    <string name="parsing_error">Data parsing error, Please try again !</string>
+    <string name="something_went_wrong">Oops ! Something went wrong</string>
+
+</resources>
